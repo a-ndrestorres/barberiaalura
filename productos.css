@@ -24,7 +24,33 @@ nav a{
     font-size: 22px;
     text-decoration: none;
 }
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
 
-.tabla{
-    border: red solid 1px;
+.productos li{
+    display: inline-block; 
+    padding: 30px 20px ;  
+    margin: 0 1.5%;  
+    width: 30%;
+    vertical-align: top;
+    border: black solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+.producto-precio{   
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
 }
